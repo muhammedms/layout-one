@@ -1,0 +1,136 @@
+nav li {
+    display: inline-block;
+    padding: 2rem;
+    
+}
+
+a {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+}
+
+nav {
+    text-align: center;
+    background: green;
+    width: 58%;
+    margin-left:20rem;
+    margin-top: 5rem;
+   
+}
+
+.profile-image{
+   border-radius: 100%;
+   width:200px;
+   height:200px;
+}
+  
+.row {
+  /*  outline: 1px solid red;*/
+}
+
+.column {
+    
+    float: left;
+    
+    margin-right: 1.7em;
+}
+
+.column:last-child {
+    margin-right: 1.7em;
+}
+
+.clearfix::before,
+.clearfix::after {
+content:'';
+
+display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.is-third {
+    
+    width: calc((100%-1.7em *2) /3);
+
+}
+
+.is-first {
+    width:45%;
+    margin-bottom: 2rem;
+   
+}
+
+.is-second {
+    width:50%;
+    margin-bottom: 1rem;
+   
+}
+
+
+
+.one {
+    width: 200px;
+    height: 200px;
+}
+
+.card-item {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 2rem;
+    margin-right:1rem;
+   
+    
+}
+
+    
+
+
+.profile-image {
+margin-left:20rem;
+}
+
+
+
+
+footer {
+
+text-align:center;
+background: green;
+padding: 1rem;
+width: 57%;
+margin-left:20rem;
+margin-bottom: 5rem;
+margin-right:15rem;
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+h1 {
+    margin-right: 17rem;
+}
+
+.para {
+    margin-right: 17rem;
+}
+
+button {
+    background: grey;
+}
+
+
+.next-item {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 2rem;
+    margin-left:2rem;
+   
+    
+}
